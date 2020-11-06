@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+environ=`(sed -e "s/=/='/1"|sed -e "s/$/'/g") << eof
+$(env)
+eof
+`
+su 0 sh -c "$environ $*"
