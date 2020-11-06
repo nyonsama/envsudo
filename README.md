@@ -1,5 +1,5 @@
 ## 功能
-在使用su 0 执行命令时保持termux的环境变量 
+使用su 0 执行命令，同时保持termux的环境变量 
 
 ## 使用方法
 envsudo [COMMAND [ARG...]]
